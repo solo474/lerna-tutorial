@@ -7,6 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "changed": "lerna changed",
     "bootstrap": "lerna bootstrap",
     "start": "npm -C ./packages/usage run start"
   },
