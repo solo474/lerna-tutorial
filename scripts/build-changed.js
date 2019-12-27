@@ -11,7 +11,7 @@ changes.forEach((change) => {
  });
    
    
-  execSync(`lerna version --canary --yes`,{
+  execSync(`lerna version --yes`,{
      stdio: ['inherit','inherit','inherit']
  });
    
