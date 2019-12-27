@@ -11,7 +11,7 @@ changes.forEach((change) => {
  });
    
    
-  execSync(`lerna publish --major --yes`,{
+  execSync(`lerna publish --canary --yes`,{
      stdio: ['inherit','inherit','inherit']
  });
    
