@@ -9,4 +9,11 @@ changes.forEach((change) => {
      cwd: process.cwd(),
      stdio: ['inherit','inherit','inherit']
  });
+   
+   
+  execSync(`lerna publish --yes`,{
+     cwd: process.cwd(),
+     stdio: ['inherit','inherit','inherit']
+ });
+   
 });
