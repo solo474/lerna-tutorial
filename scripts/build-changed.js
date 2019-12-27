@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const { readFileSync } = require('fs');
 const path = require('path');
 
-const changes = readFileSync(path.resolve(__dirname,'..','changed.json');
+const changes = readFileSync(path.resolve(__dirname,'..','changed.json'));
 
 changes.forEach((change) => {
    execSync(`lerna exec --scope ${change.name} npm run pack`,{
