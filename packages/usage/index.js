@@ -1,3 +1,3 @@
 var alpha = require('alpha')
 var beta = require('beta')
-console.log(alpha + " change " + beta)
+console.log(alpha + " change2 " + beta)
