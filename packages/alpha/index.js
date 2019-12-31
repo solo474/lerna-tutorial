@@ -1,1 +1,1 @@
-module.exports = 'alpha7'
+module.exports = 'alpha8'
