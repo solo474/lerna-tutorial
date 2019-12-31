@@ -11,7 +11,7 @@ changes.forEach((change) => {
  });
    
    
-  execSync(`lerna version prepatch --preid nex`,{
+  execSync(`lerna version prepatch --preid next`,{
      stdio: ['inherit','inherit','inherit']
  });
    
