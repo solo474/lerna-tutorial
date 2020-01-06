@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.2-next.3](https://github.com/solo474/lerna-tutorial/compare/usage@10.0.2-next.2...usage@10.0.2-next.3) (2020-01-06)
+
+**Note:** Version bump only for package usage
+
+
+
+
+
 ## [10.0.2-next.2](https://github.com/solo474/lerna-tutorial/compare/usage@10.0.2-next.1...usage@10.0.2-next.2) (2019-12-31)
 
 **Note:** Version bump only for package usage
